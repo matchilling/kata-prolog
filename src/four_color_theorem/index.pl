@@ -15,7 +15,7 @@ neighbours(finland        , [estonia, sweden]).
 neighbours(france         , [spain, belgium, luxemburg, germany, italy,
                              united_kingdom]).
 neighbours(germany        , [netherlands, belgium, luxemburg, denmark,
-                             france, austria, poland]).
+                             france, austria, poland, czech_republic]).
 neighbours(greece         , [bulgaria, cyprus]).
 neighbours(hungary        , [austria, slovakia, romania, croatia,
                              slovenia]).
@@ -24,7 +24,7 @@ neighbours(italy          , [france, austria, slovenia]).
 neighbours(latvia         , [estonia, lithuania]).
 neighbours(luxemburg      , [belgium, france, germany]).
 neighbours(malta          , []).
-neighbours(netherlands    , [belgium, germany , united_kingdom]).
+neighbours(netherlands    , [belgium, germany, united_kingdom]).
 neighbours(poland         , [germany, czech_republic, slovakia,
                              lithuania]).
 neighbours(portugal       , [spain]).
