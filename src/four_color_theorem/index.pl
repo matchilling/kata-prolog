@@ -71,7 +71,8 @@ member(X, [_|Tail]):-
   member(X, Tail).
 
 % Let us now execute the program by invoking colour_countries/1.
-% 
+% ?- colour_countries(Map).
+%
 % Example response:
 % Map = [
 %   austria/yellow,
@@ -90,4 +91,3 @@ member(X, [_|Tail]):-
 %   romania/green, slovakia/green, slovenia/green, spain/green, sweden/green,
 %   united_kingdom/green
 %   ].
-?- colour_countries(Map).
